@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/content/IndividualAssistanceHousingRegistrantsLargeDisasters (2).csv')
+df = pd.read_csv("fema_cleaned.csv")
 
 for col in df.columns:
     if df[col].dtype == 'object':
