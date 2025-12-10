@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+!pip install streamlit
 df = pd.read_csv('/content/IndividualAssistanceHousingRegistrantsLargeDisasters (2).csv')
 
 for col in df.columns:
